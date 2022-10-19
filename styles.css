@@ -76,9 +76,10 @@ nav {
 .images {
     display:flex;
     align-items:center;
-    justify-content:space-evenly
+    justify-content:space-evenly;
+    padding:0 5rem;
 }
 .image img{
     border: 3px solid var(--accent-color);
-    border-radius: 18px;
+    border-radius: 15px;
 }
