@@ -1,3 +1,10 @@
+/* Variables */
+:root {
+    --main-background-color:#1F2937;
+    --accent-color:#3882f6;
+    --main-text-color:#f9faf8;
+    --secondary-text-color:#E5E7EB;
+}
 body {
     background-color: #FFFFFF;
     padding: 0;
@@ -9,14 +16,14 @@ body {
 .navbar {
     display: flex;
     align-items: center;
-    background-color: #1F2937;
+    background-color: var(--main-background-color);
     padding: 20px 0 20px 100px;
 }
 
 .header-link {
     padding: 0 20px;
     text-decoration: none;
-    color: #E5E7EB;
+    color: var(--secondary-text-color);
     font-size: 18px;
     font-weight: bold;
 }
@@ -26,8 +33,39 @@ nav {
     margin-left: auto;
     align-items: center;
 }
+
+/* "Hero" stuff */
+.hero {
+    display:flex;
+    padding:20px 100px;
+    background-color: var(--main-background-color);
+    align-items:center;
+}
+
 .hero-main {
-    color: #f9faf8;
+    color: var(--main-text-color);
     font-size: 48px;
     font-weight: bolder;
 }
+.hero-secondary {
+    color:var(--secondary-text-color);
+    font-size: 18px;
+    text-align:left
+}
+
+.hero-text button{
+    display: block;
+    text-align: center;
+    width: 110px;
+    border: none;
+    background:var(--accent-color);
+    padding: 10px;
+    border-radius: 8px;
+    color: var(--secondary-text-color);
+    font-size: 18px;
+    font-family: 'Roboto', arial;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* pictures stuff */
