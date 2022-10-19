@@ -1,0 +1,33 @@
+body {
+    background-color: #FFFFFF;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: 'Roboto', arial;
+}
+/* Navbar stuff */
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 20px 0 20px 100px;
+}
+
+.header-link {
+    padding: 0 20px;
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+    font-weight: bold;
+}
+nav {
+    display: flex;
+    padding-right: 100px;
+    margin-left: auto;
+    align-items: center;
+}
+.hero-main {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bolder;
+}
