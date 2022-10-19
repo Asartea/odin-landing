@@ -69,3 +69,16 @@ nav {
 }
 
 /* pictures stuff */
+.pictures {
+    padding:20px 100px;
+}
+
+.images {
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly
+}
+.image img{
+    border: 3px solid var(--accent-color);
+    border-radius: 18px;
+}
