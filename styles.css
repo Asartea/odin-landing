@@ -102,6 +102,12 @@ nav {
     color:#1F2937;
     font-style: italic;
     font-size: 25px;
+    margin-bottom: 0px;
+}
+
+.quote-author {
+    text-align:right;
+    font-size:20px;
 }
 
 /* Footer */
