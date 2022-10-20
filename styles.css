@@ -1,10 +1,11 @@
 /* Variables */
 :root {
-    --main-background-color:#1F2937;
-    --accent-color:#3882f6;
-    --main-text-color:#f9faf8;
-    --secondary-color:#E5E7EB;
+    --main-background-color: #1F2937;
+    --accent-color: #3882f6;
+    --main-text-color: #f9faf8;
+    --secondary-color: #E5E7EB;
 }
+
 body {
     background-color: #FFFFFF;
     padding: 0;
@@ -12,58 +13,19 @@ body {
     text-align: center;
     font-family: 'Roboto', arial;
 }
-/* Navbar stuff */
-.navbar {
+
+/* General stuff */
+.container {
+    padding: 20px 100px;
     display: flex;
-    align-items: center;
-    background-color: var(--main-background-color);
-    padding: 20px 0 20px 100px;
 }
 
-.header-link {
-    padding: 0 20px;
-    text-decoration: none;
-    color: var(--secondary-color);
-    font-size: 18px;
-    font-weight: bold;
-}
-nav {
-    display: flex;
-    padding-right: 100px;
-    margin-left: auto;
-    align-items: center;
-}
-
-/* "Hero" stuff */
-.hero {
-    display:flex;
-    padding:20px 100px;
-    background-color: var(--main-background-color);
-    align-items:center;
-    justify-content: space-between;
-}
-
-.hero-main {
-    color: var(--main-text-color);
-    font-size: 48px;
-    font-weight: bolder;
-}
-.hero-secondary {
-    color:var(--secondary-color);
-    font-size: 18px;
-    text-align:left
-}
-
-.hero img {
-    height:360px
-}
-
-.hero-text button{
+.btn {
     display: block;
     text-align: center;
     width: 110px;
     border: none;
-    background:var(--accent-color);
+    background: var(--accent-color);
     padding: 10px;
     border-radius: 8px;
     color: var(--secondary-color);
@@ -73,41 +35,117 @@ nav {
     font-weight: bold;
 }
 
-/* pictures stuff */
-.pictures {
-    padding:20px 100px;
+/* Navbar stuff */
+.navbar {
+    display: flex;
+    background-color: var(--main-background-color);
+    padding-right: 0px;
 }
-.pictures h2 {
-    font-size:36px;
+
+.header-link {
+    padding: 0 20px;
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-size: 18px;
     font-weight: bold;
 }
-.images {
-    display:flex;
-    align-items:center;
-    justify-content:space-evenly;
-    padding:0 5rem;
+
+nav {
+    display: flex;
+    padding-right: 100px;
+    margin-left: auto;
+    align-items: center;
 }
-.image img{
+
+/* "Hero" stuff */
+.hero {
+    background-color: var(--main-background-color);
+    justify-content: space-between;
+}
+
+.hero-text {
+    width: 40%;
+    text-align: left;
+}
+
+.hero-main {
+    color: var(--main-text-color);
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.hero-secondary {
+    color: var(--secondary-color);
+    font-size: 18px;
+}
+
+.hero img {
+    height: 360px
+}
+
+/* pictures stuff */
+.pictures {
+    padding: 20px 100px;
+}
+
+.pictures h2 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.images {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0 5rem;
+}
+
+.image img {
     border: 3px solid var(--accent-color);
     border-radius: 15px;
 }
 
 /* Quotes */
 .quote {
-    padding:20px 100px;
-    background-color:var(--secondary-color);
+    padding: 20px 100px;
+    background-color: var(--secondary-color);
 }
 
-.quote blockquote{
-    color:#1F2937;
+.quote blockquote {
+    color: #1F2937;
     font-style: italic;
     font-size: 25px;
     margin-bottom: 0px;
 }
 
 .quote-author {
-    text-align:right;
-    font-size:20px;
+    text-align: right;
+    font-size: 20px;
+}
+
+/* Call to action */
+.call-to-action {
+    padding: 20px 40px;
+    margin: 40px 250px;
+    background-color: var(--accent-color);
+    justify-content: space-between;
+}
+
+.call-to-action-header {
+    color: var(--main-text-color);
+    font-weight: bold;
+    text-align: left;
+}
+
+.call-to-action-text {
+    color: var(--secondary-color);
+    text-align: left;
+}
+
+.call-to-action button {
+    border: 2px solid var(--main-text-color);
+    width: fit-content;
+    margin: auto;
 }
 
 /* Footer */
@@ -119,5 +157,5 @@ footer {
 }
 
 footer a {
-    color:var(--accent-color)
+    color: var(--accent-color)
 }
