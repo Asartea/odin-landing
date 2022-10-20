@@ -1,1 +1,1 @@
-# odin-landing
+Landing page for a (fictional) website advertising Zen products, created for the [Odin landing page project](https://www.theodinproject.com/lessons/foundations-landing-page).
