@@ -41,16 +41,19 @@ body {
     background-color: var(--main-background-color);
     padding-right: 0px;
 }
+
 .header-image img {
     width: 36px;
 }
+
 .header-text {
-    color:var(--main-text-color);
+    color: var(--main-text-color);
     text-transform: uppercase;
     font-weight: bold;
     font-size: 36px;
     padding-left: 10px;
 }
+
 .header-link {
     padding: 0 20px;
     text-decoration: none;
@@ -116,8 +119,8 @@ nav {
 }
 
 .image-subtext {
-    color:var(--main-background-color);
-    font-size:20px;
+    color: var(--main-background-color);
+    font-size: 20px;
     font-weight: bold;
     width: 180px;
 }
